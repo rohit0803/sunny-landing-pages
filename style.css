@@ -1,0 +1,147 @@
+body{
+	margin: 0px;
+	padding:0px;
+}
+.awards{
+	text-align: center;
+	padding-top: 20px;
+}
+.awards:hover {
+	background-color: #01579b;
+
+}
+figure{
+	overflow: hidden;
+}
+		
+figure img{
+  -webkit-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+
+figure:hover figcaption{
+ background: rgba(255,255,255,0.3);
+}
+
+
+
+figure:hover img{
+  -webkit-transform: scale3d(1.2, 1.2, 1);
+          transform: scale3d(1.2, 1.2, 1);
+}
+.modal-header{
+	background-color: #448aff;
+	text-align: center;
+	margin: 0px;
+}
+.modal-body{
+	border:5px solid #448aff;
+	border-top: none;
+	margin:0px;	
+}
+#navi{
+	list-style-type: none;
+	text-align: center;
+	margin-right: 40px;
+}
+li a{
+	text-decoration: none;
+	font-color: white;
+	font-size: 25px;
+}
+#menu{
+	font-size: 20px;
+	color: white;
+}
+.close{
+	font-size:30px;
+	color:red;
+}
+#one .container{
+	background-image: url(img/header.jpg);
+	height: 90vh;
+	width:100%;
+	background-repeat: no-repeat;
+}
+#one .container h1{
+	color:white;
+	font-family: 'Milonga', cursive;
+	text-align: center;
+}
+#two{
+	margin: 0px;
+	padding: 0px;
+}
+#two .row{
+	margin: 0px;
+	padding: 0px;
+}
+#two .row .col-md-6{
+	margin: 0px;
+	padding: 0px;
+}
+#two .row .col-md-6 h3{
+	color:#448aff	;
+	font-family: 'Roboto', sans-serif;
+}
+#two .row .col-md-6 p{
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+	color: #9e9e9e;
+}
+#three .container{
+	min-height: 200px;	
+}
+#three .container span{
+	margin-top: 50%;
+}
+#three .container span h3{
+	color:#448aff;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 5%;
+}
+#three .container span p{
+	text-align: justify;
+	font-family: 'Roboto', sans-serif;
+	color: #9e9e9e;
+}
+#four{
+	background-color: #eeeeee;
+	margin: 0px;
+	padding: 0px;
+}
+#four .row{
+	margin: 0px;
+	padding: 0px;
+}
+.padtop{
+	margin: 0px;
+	padding: 0px;
+	padding-top: 15px;
+}
+.fa-twitter-square{
+	border-radius: 50%;
+	font-size: 35px;
+	color:#448aff;
+}
+#D4{
+	position: relative;
+	top: -10px;
+	color:#448aff;
+}
+.pad{
+	margin: 0px;
+	padding: 0px;
+}
+#five{
+	background-color: #448aff;
+	margin: 0px;
+	padding: 0px;
+}
+#five .row{
+	margin: 0px;
+	padding: 0px;	
+}
